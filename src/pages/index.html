@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blotel</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
 
 <!-- Início Header da Home-->
@@ -13,20 +19,125 @@
     <header>
         <img src="../assets/img/BlotelPNG.png" alt="">
         <nav><ul>
-            <li><a href="index.html"></a></li>
-            <li><a href="produtos.html"></a></li>
-            <li><a href="contatos.html"></a></li>
-            <li><a href="sobrenos.html"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+            <li><a href="sobrenos.html">Sobre Nós</a></li>
         </ul></nav>
     </header>
 
 <!--Fim Header da Home-->
 
-    <div class="Carrossel"></div>
-    <div class="Produtos-Home"></div>
-    <div class="SobreNós-Home"></div>
-     
-    <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, architecto.</footer>
+<!-- Início da Main-->
 
+<main>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="10000">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="10000">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+
+    <article>
+        <h2>Produtos</h2>
+        <p>Veja abaixo alguns dos nossos produtos mais vendidos. Compre com quem entende do assunto e entrega confiança em cada peça.</p>
+        <div></div>
+        <button><a href="produtos.html">Ver Mais</a></button>
+    </article>
+    <article>
+        <div>MAPA</div>
+        <div>
+            <h2>Sobre Nós</h2>
+            <p> A Blotel, empresa do Grupo Marmorial Produtos de Cimento Ltda, é referência em pavimentação intertravada desde 1986.
+
+ Iniciamos nossa trajetória no comércio de blocos e telhas, mas, acompanhando as inovações e as demandas do mercado, evoluímos para nos tornar uma empresa especializada em produtos de cimento pré-moldados, com foco em pavimentação.
+
+ Com tradição, inovação e compromisso com a qualidade, oferecemos soluções duráveis e sustentáveis para projetos urbanos, industriais e residenciais.
+
+ Seja para grandes obras ou pequenos projetos, fale conosco e conheça nossas opções!</p>
+        </div>
+    </article>
+
+</main>
+
+<!-- Fim da Main-->
+
+<!-- Início do Footer-->
+    <footer>
+
+        <div>
+            <div id="footer-sobre">
+
+                <div>
+                    <img src="../assets/img/BlotelPNG.png" alt="">
+                    <h2>BLOTEL</h2>
+                </div>
+                <p>Seu parceiro de confiança em soluções duráveis e sustentáveis de pavimentação. Construa com qualidade, onde e quando precisar.</p>
+
+            </div>
+
+            <div id="footer-links">
+
+                <h2>Links Rápidos</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contatos.html">contatos</a></li>
+                    <li><a href="sobrenos.html">Sobre Nós</a></li>
+                </ul>
+
+            </div>
+
+            <div id="footer-contatos"></div>
+
+            <h2>Contato & Suporte</h2>
+            <ul>
+                <li><img src="" alt="" class="icon"><a href="https://www.google.com/maps/place/BLOTEL+PREMOLDADOS+IGARAPE+MG/data=!4m2!3m1!1s0x0:0xceac1496b6fd85a8?sa=X&ved=1t:2428&ictx=111" target="_blank">Avenida Perina Venceslau do Prado, Rod. Fernão Dias, 333 - JK, Igarapé - MG, 32900-000</a></li>
+                <li><img src="" alt="" class="icon">(31) 99483-1171</li>
+                <li><img src="" alt="" class="icon">blotel@hotmail.com</li>
+                <li><img src="" alt="" class="icon">Seg-Sex: 7:00 - 12:00
+                                                    Sáb: 7:00 - 12:00</li>
+                <li><img src="" alt="" class="icon"><a href="https://www.instagram.com/blotel_premoldados" target="_blank">@blotel_premoldados</a></li>
+            </ul>
+
+        </div>
+        <p>&copy; 2025 Blotel. Todos os direitos reservados.</p>
+
+    </footer>
+
+<!-- Fim do Footer-->
 </body>
 </html>
