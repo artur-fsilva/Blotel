@@ -1,0 +1,114 @@
+header
+{
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: space-between;
+}
+
+#navbar-ul
+{
+    display: flex;
+    gap: 50px;
+    margin: 25px;
+    color: #1c3d56;
+    text-decoration: none;
+}
+
+.carousel-caption p
+{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#navbar-ul a
+{
+    color: #1c3d56;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header img
+{
+    width: 5%;
+    height: 5%;
+}
+
+#produtos-article
+{
+    background-color: #1c3d56;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 42vh;
+    align-content: center;
+}
+
+#produtos-article img
+{
+    margin: 20px 50px;
+    width: 10%;
+    height: 10%;
+}
+
+button
+{
+    background-color: #ffffff;
+    color: #1c3d56;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 12px;
+    width: 150px;;
+    cursor: pointer;
+    align-items: center;
+    font-size: 6px;
+
+}
+
+#button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#sobrenos-home
+{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#sobrenos-home h2
+{
+    color:#1c3d56;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-weight: bold;
+}
+
+#sobrenos-home p
+{
+    font-size: 1.35rem;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-bottom: 26px;
+    margin: 15px 50px;
+}
+
+iframe
+{
+    width: 750px;
+    height: 320px;
+    border-radius: 10px;
+    margin: 145px 75px;
+
+}
+
+.azul-bold {
+    color: #1c3d56;
+    font-weight: bold;
+}
