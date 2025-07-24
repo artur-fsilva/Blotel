@@ -18,7 +18,7 @@
 
     <header>
         <img src="../assets/img/BlotelPNG.png" alt="">
-        <nav><ul>
+        <nav><ul id="navbar-ul">
             <li><a href="index.html">Home</a></li>
             <li><a href="produtos.html">Produtos</a></li>
             <li><a href="contatos.html">Contatos</a></li>
@@ -40,24 +40,24 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="../assets/img/Pisos Intertravados Banner.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Durabilidade e estilo para seus projetos</h5>
+        <p>Piso intertravado de alta resistência, ideal para calçadas, estacionamentos e áreas externas. Praticidade, beleza e sustentabilidade em um único produto.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="10000">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="../assets/img/Pisos Intertravados Banner.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Soluções inteligentes para áreas externas</h5>
+        <p>Com alta durabilidade e fácil manutenção, o piso intertravado Blotel é perfeito para calçadas, garagens, praças e ambientes urbanos. Um acabamento moderno, seguro e ecológico para valorizar seu projeto.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="10000">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="../assets/img/Pisos Intertravados Banner.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Pavimentação que une resistência e estética</h5>
+        <p>Projetado para suportar o uso intenso, o piso intertravado Blotel combina funcionalidade com um visual elegante. Uma escolha sustentável para quem busca qualidade e beleza em espaços ao ar livre.</p>
       </div>
     </div>
   </div>
@@ -71,24 +71,33 @@
   </button>
     </div>
 
-    <article>
-        <h2>Produtos</h2>
-        <p>Veja abaixo alguns dos nossos produtos mais vendidos. Compre com quem entende do assunto e entrega confiança em cada peça.</p>
-        <div></div>
-        <button><a href="produtos.html">Ver Mais</a></button>
-    </article>
-    <article>
-        <div>MAPA</div>
+    <article id="produtos-article">
+        <h2>PRODUTOS</h2>
+        <p>Veja abaixo alguns dos nossos produtos mais vendidos. Compre com quem entende do <br> assunto e entrega confiança em cada peça.</p>
         <div>
-            <h2>Sobre Nós</h2>
-            <p> A Blotel, empresa do Grupo Marmorial Produtos de Cimento Ltda, é referência em pavimentação intertravada desde 1986.
-
- Iniciamos nossa trajetória no comércio de blocos e telhas, mas, acompanhando as inovações e as demandas do mercado, evoluímos para nos tornar uma empresa especializada em produtos de cimento pré-moldados, com foco em pavimentação.
-
- Com tradição, inovação e compromisso com a qualidade, oferecemos soluções duráveis e sustentáveis para projetos urbanos, industriais e residenciais.
-
- Seja para grandes obras ou pequenos projetos, fale conosco e conheça nossas opções!</p>
+            <img src="../assets/img/produtos/pisosextavado.png" alt="">
+            <img src="../assets/img/produtos/pisointertravado.png" alt="">
+            <img src="../assets/img/produtos/ladrilho.png" alt="">
         </div>
+            <a href="../pages/produtos.html">
+            <button type="button" class="btn btn-light">VER MAIS</button>
+            </a>
+    </article>
+
+    <article id="sobrenos-home">
+
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747.7108323679363!2d-44.292155099999995!3d-20.062551299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6d1028511f6c7%3A0xceac1496b6fd85a8!2sBLOTEL%20PREMOLDADOS%20IGARAPE%20MG!5e0!3m2!1spt-BR!2sbr!4v1753207885176!5m2!1spt-BR!2sbr" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div >
+            <h2>Sobre Nós</h2>
+                <p style="text-indent: 20px;">A <span class="azul-bold">Blotel</span>, empresa do <span class="azul-bold">Grupo Marmorial Produtos de Cimento Ltda</span>, é referência em <span class="azul-bold">pavimentação intertravada</span> desde <span class="azul-bold">1986</span>.
+                <p style="text-indent: 20px;">Iniciamos nossa trajetória no comércio de <span class="azul-bold">blocos e telas</span>, mas, acompanhando as inovações e as demandas do mercado, evoluímos para nos tornar uma empresa especializada em <span class="azul-bold">produtos de cimento pré-moldados</span>, com foco em pavimentação.</p>
+                <p style="text-indent: 20px;">Com <span class="azul-bold">tradição, inovação e compromisso com a qualidade,</span> oferecemos soluções <span class="azul-bold">duráveis e sustentáveis para projetos</span> <span class="azul-bold">urbanos, industriais e residenciais.</span></p> 
+                <p style="text-indent: 20px;">Seja para <span class="azul-bold">grandes obras</span> ou <span class="azul-bold">pequenos projetos,</span> fale conosco e conheça nossas opções!</p>
+        </div>
+
     </article>
 
 </main>
