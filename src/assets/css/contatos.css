@@ -7,7 +7,7 @@ body{
 }
 
 main{
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     padding: 80px;
@@ -78,7 +78,7 @@ iframe{
     }
     iframe {
         width: 100% !important;
-        height: 220px !important;
+        height: 300px !important;
         margin-top: 10px;
     }
 }

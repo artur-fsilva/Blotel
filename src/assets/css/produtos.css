@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c3d56;
+}
+a{
+    text-decoration: none;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 50px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+h2{
+    color: #C9CFD4;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+#produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    
+}
+
+
+.card{
+    max-width: 16rem;
+    padding: 30px 30px 0px 30px;
+    background-color: transparent;
+    border: 2.4px solid white;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(110%);
+    transition: 0.3s;
+}
+
+#verMais{
+    margin-bottom: 50px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    color: #1c3d56;
+    background-color: white;
+    align-self: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+}
+
+
+.fade-in {
+    animation: fadeInCard 0.5s;
+}
+
+
+
+@keyframes fadeInCard {
+    from { opacity: 0; transform: translateY(20px);}
+    to   { opacity: 1; transform: translateY(0);}
+}
+
+
+
+@media (max-width: 600px) {
+    #produtos {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 601px) {
+    #produtos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #produtos {
+        gap: 48px;
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

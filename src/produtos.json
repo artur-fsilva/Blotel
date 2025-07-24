@@ -1,0 +1,243 @@
+    [
+        {
+            "id": "P001",
+            "nome": "Bloco Estrutural 1",
+            "descricao": "Bloco estrutural de alta resistência para construção civil.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P002",
+            "nome": "Bloco Estrutural 2",
+            "descricao": "Bloco estrutural ideal para paredes internas e externas.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P003",
+            "nome": "Bloco Estrutural 3",
+            "descricao": "Bloco estrutural com excelente isolamento térmico.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P004",
+            "nome": "Bloco Estrutural 4",
+            "descricao": "Bloco estrutural para obras residenciais e comerciais.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P005",
+            "nome": "Bloco Estrutural 5",
+            "descricao": "Bloco estrutural resistente à umidade.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P006",
+            "nome": "Bloco Estrutural 6",
+            "descricao": "Bloco estrutural de fácil aplicação e acabamento.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P007",
+            "nome": "Bloco Estrutural 7",
+            "descricao": "Bloco estrutural para projetos sustentáveis.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P008",
+            "nome": "Bloco Estrutural 8",
+            "descricao": "Bloco estrutural com alta durabilidade.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P009",
+            "nome": "Bloco Estrutural 9",
+            "descricao": "Bloco estrutural para fundações e muros.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P010",
+            "nome": "Bloco Estrutural 10",
+            "descricao": "Bloco estrutural com acabamento liso.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P011",
+            "nome": "Bloco Estrutural 11",
+            "descricao": "Bloco estrutural para grandes obras.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P012",
+            "nome": "Bloco Estrutural 12",
+            "descricao": "Bloco estrutural com encaixe perfeito.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P013",
+            "nome": "Bloco Estrutural 13",
+            "descricao": "Bloco estrutural para ambientes internos.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P014",
+            "nome": "Bloco Estrutural 14",
+            "descricao": "Bloco estrutural para ambientes externos.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P015",
+            "nome": "Bloco Estrutural 15",
+            "descricao": "Bloco estrutural com proteção acústica.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P016",
+            "nome": "Bloco Estrutural 16",
+            "descricao": "Bloco estrutural para divisórias.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P017",
+            "nome": "Bloco Estrutural 17",
+            "descricao": "Bloco estrutural com alta resistência à compressão.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P018",
+            "nome": "Bloco Estrutural 18",
+            "descricao": "Bloco estrutural para projetos inovadores.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P019",
+            "nome": "Bloco Estrutural 19",
+            "descricao": "Bloco estrutural com acabamento texturizado.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P020",
+            "nome": "Bloco Estrutural 20",
+            "descricao": "Bloco estrutural para áreas externas.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P021",
+            "nome": "Bloco Estrutural 21",
+            "descricao": "Bloco estrutural para áreas internas.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P022",
+            "nome": "Bloco Estrutural 22",
+            "descricao": "Bloco estrutural com fácil encaixe.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P023",
+            "nome": "Bloco Estrutural 23",
+            "descricao": "Bloco estrutural para muros de contenção.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P024",
+            "nome": "Bloco Estrutural 24",
+            "descricao": "Bloco estrutural para paredes de vedação.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P025",
+            "nome": "Bloco Estrutural 25",
+            "descricao": "Bloco estrutural com alta absorção acústica.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P026",
+            "nome": "Bloco Estrutural 26",
+            "descricao": "Bloco estrutural para projetos residenciais.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P027",
+            "nome": "Bloco Estrutural 27",
+            "descricao": "Bloco estrutural para projetos comerciais.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P028",
+            "nome": "Bloco Estrutural 28",
+            "descricao": "Bloco estrutural com acabamento premium.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P029",
+            "nome": "Bloco Estrutural 29",
+            "descricao": "Bloco estrutural para áreas industriais.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P030",
+            "nome": "Bloco Estrutural 30",
+            "descricao": "Bloco estrutural para áreas urbanas.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P031",
+            "nome": "Bloco Estrutural 31",
+            "descricao": "Bloco estrutural para áreas rurais.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P032",
+            "nome": "Bloco Estrutural 32",
+            "descricao": "Bloco estrutural com alta resistência química.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P033",
+            "nome": "Bloco Estrutural 33",
+            "descricao": "Bloco estrutural para ambientes úmidos.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P034",
+            "nome": "Bloco Estrutural 34",
+            "descricao": "Bloco estrutural para ambientes secos.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P035",
+            "nome": "Bloco Estrutural 35",
+            "descricao": "Bloco estrutural para áreas de lazer.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P036",
+            "nome": "Bloco Estrutural 36",
+            "descricao": "Bloco estrutural para jardins e quintais.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P037",
+            "nome": "Bloco Estrutural 37",
+            "descricao": "Bloco estrutural para garagens.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P038",
+            "nome": "Bloco Estrutural 38",
+            "descricao": "Bloco estrutural para varandas.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P039",
+            "nome": "Bloco Estrutural 39",
+            "descricao": "Bloco estrutural para sacadas.",
+            "imagem": "assets/img/image.png"
+        },
+        {
+            "id": "P040",
+            "nome": "Bloco Estrutural 40",
+            "descricao": "Bloco estrutural para corredores e hall de entrada.",
+            "imagem": "assets/img/image.png"
+        }
+]
+
