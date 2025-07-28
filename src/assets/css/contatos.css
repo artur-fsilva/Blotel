@@ -90,8 +90,6 @@ header img {
 
 main{
     margin-top: 70px;
-    width: 80%;
-    height: 90vh;
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
@@ -122,6 +120,7 @@ main h1{
 }
 
 
+
 .icon {
     width: 20px;
     height: 20px;
@@ -130,6 +129,7 @@ main h1{
 }
 
 iframe{
+    margin-top: 20px;
     border-radius: 10px;
 }
 
