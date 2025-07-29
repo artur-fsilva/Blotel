@@ -42,6 +42,12 @@ header
     text-decoration: none;
 }
 
+.carousel-caption > h5
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .carousel-caption p
 {
     width: 50%;
@@ -97,7 +103,9 @@ header img {
 
 #produtos-article h2
 {
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 25px;
 }
 
 #produtos-article img
@@ -143,20 +151,19 @@ button
 #sobrenos-home h2
 {
     color:#1c3d56;
+    font-size: 2.1rem;
     display: flex;
     justify-content: center;
     margin: 50px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #sobrenos-home p
 {
     font-size: 1.35rem;
-    font-weight: 400;
     justify-content: space-between;
-    margin-bottom: 26px;
-    margin: 15px 50px;
-    color: black;
+    margin: 25px 75px;
+    color: #595959;
 }
 
 /*CSS MAPAS*/
@@ -166,7 +173,7 @@ iframe
     width: 750px;
     height: 320px;
     border-radius: 10px;
-    margin: 145px 75px;
+    margin: 145px 100px;
 
 }
 
