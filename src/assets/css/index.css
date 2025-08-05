@@ -97,8 +97,8 @@ header img {
     color: white;
     text-align: center;
     text-decoration: none;
-    height: 42vh;
     align-content: center;
+    padding: 30px;
 }
 
 #produtos-article h2
@@ -108,11 +108,13 @@ header img {
     margin-bottom: 25px;
 }
 
-#produtos-article img
-{
+#produtos-article img {
     margin: 20px 50px;
-    width: 10%;
-    height: 10%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    max-width: 100%;
 }
 
 button
@@ -137,33 +139,55 @@ button
 
 /*CSS SOBRE NÓS*/
 
-#sobrenos-home
-{
-
-    display: flex;
-    flex-direction: row;
+#sobrenos-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        ". titulo"
+        "mapa texto";
     background-color: #f4f4f4;
     font-size: 20px;
-    display: flex;
     justify-content: center;
+    align-items: start;
+    gap: 30px;
+    padding: 40px 5vw 40px 5vw;
+    box-sizing: border-box;
 }
 
-#sobrenos-home h2
-{
-    color:#1c3d56;
+
+#sobrenos-home .sobrenos-texto {
+    grid-area: texto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 2vw;
+    box-sizing: border-box;
+}
+
+#sobrenos-home h2 {
+    color: #1c3d56;
     font-size: 2.1rem;
-    display: flex;
-    justify-content: center;
-    margin: 50px;
     font-weight: 700;
+    grid-area: titulo;
+    justify-self: center;
+    align-self: end;
+    margin: 0;
+    padding-bottom: 10px;
 }
 
-#sobrenos-home p
-{
+#sobrenos-home p {
     font-size: 1.35rem;
-    justify-content: space-between;
-    margin: 25px 75px;
     color: #595959;
+    margin: 0;
+}
+
+#sobrenos-home iframe {
+    width: 100%;
+    height: 320px;
+    border-radius: 10px;
+    margin: 0;
+    display: block;
 }
 
 /*CSS MAPAS*/
@@ -309,4 +333,105 @@ footer a:hover
     height: 20px;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+
+@media (max-width: 900px) {
+    
+    footer>div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sobrenos-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+        
+    }
+
+    #sobrenos-home .iframe,
+    #sobrenos-home .sobrenos-texto {
+        padding: 0;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+
+    .iframe{
+        width: 100%;
+    }
+
+    #sobrenos-home .iframe iframe {
+        width: 100% ;
+        min-width: 0;
+        margin: 0;
+    }
+    #sobrenos-home h2 {
+   
+    }
+}
+
+@media (max-width: 600px) {
+    #navbar-ul{
+        gap: 10px;
+    }
+
+    footer>div {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        width: 90%;
+       
+    }
+    #footer-sobre, #footer-links, #footer-contatos {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    #footer-sobre>div {
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+    #footer-sobre>div>img {
+        width: 60px;
+    }
+    #footer-sobre>div>h2 {
+        display: none;
+    }
+    #footer-sobre>p {
+        width: 90%;
+        margin: 12px auto 0 auto;
+        font-size: 0.95rem;
+    }
+    #footer-links>h2, #footer-contatos>h2 {
+        font-size: 1rem;
+        padding-top: 10px;
+    }
+    #footer-links>ul, #footer-contatos ul {
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 0.95rem;
+    }
+    #footer-links>ul li, #footer-contatos li {
+        margin-bottom: 8px;
+        justify-content: center;
+        font-size: 0.95rem;
+    }
+    .icon {
+        width: 18px;
+        height: 18px;
+        margin-right: 6px;
+    }
+    footer>p {
+        width: 95%;
+        font-size: 0.85rem;
+        margin: 10px auto 0 auto;
+        text-align: center;
+    }
 }

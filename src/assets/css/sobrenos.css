@@ -96,7 +96,7 @@ a{
 
 
 main{
-    width: 1000px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -154,13 +154,14 @@ article > img{
 
 @media (max-width: 900px) {
     main {
-        width: 95%;
+        width: 85%;
         height: auto;
         padding: 10px;
     }
     main h1 {
         font-size: 2rem;
         padding: 10px;
+        text-align: center;
     }
     main > p {
         font-size: 1rem;
@@ -178,19 +179,26 @@ article > img{
         width: 50%;
         margin: 20px 0;
     }
+    footer>div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 600px) {
+    #navbar-ul{
+        gap: 10px;
+    }
     main {
-        width: 100%;
+        width: 90%;
         padding: 5px;
     }
     main h1 {
-        font-size: 1.3rem;
-        padding: 5px;
+        font-size: 1.7rem;
     }
     main > p {
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
     article div {
         width: 95%;
@@ -203,6 +211,62 @@ article > img{
     article > img {
         width: 80%;
         margin: 10px 0;
+    }
+    /* FOOTER MOBILE */
+    footer>div {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        width: 100%;
+        
+    }
+    #footer-sobre, #footer-links, #footer-contatos {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    #footer-sobre>div {
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+    #footer-sobre>div>img {
+        width: 60px;
+    }
+    #footer-sobre>div>h2 {
+        display: none;
+    }
+    #footer-sobre>p {
+        width: 90%;
+        margin: 12px auto 0 auto;
+        font-size: 0.95rem;
+    }
+    #footer-links>h2, #footer-contatos>h2 {
+        font-size: 1rem;
+        padding-top: 10px;
+    }
+    #footer-links>ul, #footer-contatos ul {
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 0.95rem;
+    }
+    #footer-links>ul li, #footer-contatos li {
+        margin-bottom: 8px;
+        justify-content: center;
+        font-size: 0.95rem;
+    }
+    .icon {
+        width: 18px;
+        height: 18px;
+        margin-right: 6px;
+    }
+    footer>p {
+        width: 95%;
+        font-size: 0.85rem;
+        margin: 10px auto 0 auto;
+        text-align: center;
     }
 }
 
