@@ -1,111 +1,111 @@
     [
         {
             "id": "P001",
-            "nome": "Bloco Estrutural 1",
+            "nome": "Chapéu de Muro Duas Abas",
             "descricao": "Bloco estrutural de alta resistência para construção civil.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/chapeu2abas1.jpg"
         },
         {
             "id": "P002",
-            "nome": "Bloco Estrutural 2",
+            "nome": "Chapéu de Muro Reto",
             "descricao": "Bloco estrutural ideal para paredes internas e externas.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/chapeumuroreto1.jpg"
         },
         {
             "id": "P003",
-            "nome": "Bloco Estrutural 3",
+            "nome": "Cobogo",
             "descricao": "Bloco estrutural com excelente isolamento térmico.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/cobogo.jpg"
         },
         {
             "id": "P004",
-            "nome": "Bloco Estrutural 4",
+            "nome": "Concegrama",
             "descricao": "Bloco estrutural para obras residenciais e comerciais.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/concegrama1.jpg"
         },
         {
             "id": "P005",
-            "nome": "Bloco Estrutural 5",
+            "nome": "Dormente",
             "descricao": "Bloco estrutural resistente à umidade.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/Dormente.jpg"
         },
         {
             "id": "P006",
-            "nome": "Bloco Estrutural 6",
+            "nome": "Ladrilho",
             "descricao": "Bloco estrutural de fácil aplicação e acabamento.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/ladrilho32x32.jpg"
         },
         {
             "id": "P007",
-            "nome": "Bloco Estrutural 7",
+            "nome": "Lajota",
             "descricao": "Bloco estrutural para projetos sustentáveis.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/lajota.jpg"
         },
         {
             "id": "P008",
-            "nome": "Bloco Estrutural 8",
+            "nome": "Meio Fio",
             "descricao": "Bloco estrutural com alta durabilidade.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/meiofioliso.jpg"
         },
         {
             "id": "P009",
-            "nome": "Bloco Estrutural 9",
+            "nome": "Piso Intertravado",
             "descricao": "Bloco estrutural para fundações e muros.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/pisointertravado.png"
         },
         {
             "id": "P010",
-            "nome": "Bloco Estrutural 10",
+            "nome": "Piso Liso",
             "descricao": "Bloco estrutural com acabamento liso.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/pisoliso6.jpg"
         },
         {
             "id": "P011",
-            "nome": "Bloco Estrutural 11",
+            "nome": "Piso Rústico",
             "descricao": "Bloco estrutural para grandes obras.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/pisorustico1.jpg"
         },
         {
             "id": "P012",
-            "nome": "Bloco Estrutural 12",
+            "nome": "Piso Sextavado",
             "descricao": "Bloco estrutural com encaixe perfeito.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/pisosextavado.png"
         },
         {
             "id": "P013",
-            "nome": "Bloco Estrutural 13",
+            "nome": "Revestimento 3D",
             "descricao": "Bloco estrutural para ambientes internos.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/revestimento3d1.jpg"
         },
         {
             "id": "P014",
-            "nome": "Bloco Estrutural 14",
+            "nome": "Revestimento de Beiral",
             "descricao": "Bloco estrutural para ambientes externos.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/revestimentobeiral1.jpg"
         },
         {
             "id": "P015",
-            "nome": "Bloco Estrutural 15",
+            "nome": "Revestimento Ripado",
             "descricao": "Bloco estrutural com proteção acústica.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/revestimentoripado.jpg"
         },
         {
             "id": "P016",
-            "nome": "Bloco Estrutural 16",
+            "nome": "Separador de Jardim",
             "descricao": "Bloco estrutural para divisórias.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/separadordejardim.jpg"
         },
         {
             "id": "P017",
-            "nome": "Bloco Estrutural 17",
+            "nome": "Tátil Alerta",
             "descricao": "Bloco estrutural com alta resistência à compressão.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/tatilalerta.jpg"
         },
         {
             "id": "P018",
-            "nome": "Bloco Estrutural 18",
+            "nome": "Tátil Direcional",
             "descricao": "Bloco estrutural para projetos inovadores.",
-            "imagem": "assets/img/image.png"
+            "imagem": "assets/img/produtos/tatildirecional.jpg"
         },
         {
             "id": "P019",
