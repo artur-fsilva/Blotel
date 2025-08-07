@@ -2,37 +2,42 @@
         {
             "id": "P001",
             "nome": "Chapéu de Muro Duas Abas",
-            "imagem": "assets/img/produtos/chapeu2abas1.jpg",
+            "codigo": 10,
+            "imagem": ["assets/img/produtos/chapeu2abas1.jpg"],
             "tamanho": ["0,80 x 19" , "0,80 x 23"],
             "venda": "Unidade"
         },
         {
             "id": "P002",
             "nome": "Chapéu de Muro Reto",
-            "imagem": "assets/img/produtos/chapeumuroreto1.jpg",
+            "codigo": 10,
+            "imagem": ["assets/img/produtos/chapeumuroreto1.jpg"],
             "tamanho": ["0,80 x 19" , "0,80 x 23"],
             "venda": "Unidade"
         },
         {
             "id": "P003",
             "nome": "Cobogo",
-            "imagem": "assets/img/produtos/cobogo.jpg",
-            "tamanho": "40 x 40",
+            "codigo": 44,
+            "imagem": ["assets/img/produtos/cobogo.jpg"],
+            "tamanho": ["40 x 40"],
             "venda": "Unidade"
             
         },
         {
             "id": "P004",
             "nome": "Concegrama",
-            "imagem": "assets/img/produtos/concegrama1.jpg",
-            "tamanho": "33 x 43",
+            "codigo": 43,
+            "imagem": ["assets/img/produtos/concegrama1.jpg"],
+            "tamanho": ["33 x 43"],
             "venda": "M²"
         },
         {
             "id": "P005",
             "nome": "Dormente",
-            "imagem": "assets/img/produtos/Dormente.jpg",
-            "tamanho": "74 x 30",
+            "codigo": 45,
+            "imagem": ["assets/img/produtos/Dormente.jpg"],
+            "tamanho":["74 x 30"],
             "venda": "Unidade"
         },
         {
@@ -46,85 +51,95 @@
         {
             "id": "P007",
             "nome": "Lajota",
-            "imagem": "assets/img/produtos/lajota.jpg",
+            "codigo" : 28,
+            "imagem": ["assets/img/produtos/lajota.jpg"],
             "tamanho": ["45 x 45 x 5" , "45 x 50 x 5"],
             "venda": "Unidade"
         },
         {
             "id": "P008",
             "nome": "Meio Fio",
-            "imagem": "assets/img/produtos/meiofioliso.jpg",
+            "codigo": 19,
+            "imagem": ["assets/img/produtos/meiofioliso.jpg"],
             "tamanho": ["0,80 x 30 x 12" , "0,80 x 25 x 12" , "0,80 x 30 x 12"],
             "venda": "Unidade"
         },
         {
             "id": "P009",
             "nome": "Piso Intertravado",
-            "imagem": "assets/img/produtos/pisointertravado.png",
-            "tamanho": "",
+            "imagem": ["assets/img/produtos/pisointertravado.png"],
+            "tamanho": [""],
             "venda": ""
         },
         {
             "id": "P010",
             "nome": "Piso Liso",
-            "imagem": "assets/img/produtos/pisoliso6.jpg",
+            "codigo": 15,
+            "imagem": ["assets/img/produtos/pisoliso6.jpg"],
             "tamanho": ["6cm" , "8cm"],
             "venda": "M²"
         },
         {
             "id": "P011",
             "nome": "Piso Rústico",
-            "imagem": "assets/img/produtos/pisorustico1.jpg",
-            "tamanho": "",
+            "imagem": ["assets/img/produtos/pisorustico1.jpg"],
+            "tamanho": [""],
             "venda": ""
         },
         {
             "id": "P012",
             "nome": "Piso Sextavado",
-            "imagem": "assets/img/produtos/pisosextavado.png",
-            "tamanho": "30 x 30 x 0,8",
+            "codigo": 25,
+            "imagem": ["assets/img/produtos/pisosextavado.png"],
+            "tamanho": ["30 x 30 x 0,8"],
             "venda": "M²"
         },
         {
             "id": "P013",
             "nome": "Revestimento 3D",
-            "imagem": "assets/img/produtos/revestimento3d1.jpg",
-            "tamanho": "40 x 40 (Podendo variar conforme o modelo)",
+            "codigo": 46,
+            "imagem": ["assets/img/produtos/revestimento3d1.jpg"],
+            "tamanho": ["40 x 40 (Podendo variar conforme o modelo)"],
             "venda": "M²"
         },
         {
             "id": "P014",
             "nome": "Revestimento de Beiral",
-            "imagem": "assets/img/produtos/revestimentobeiral1.jpg",
-            "tamanho": "80 x 10",
+            "codigo": 42,
+            "imagem": ["assets/img/produtos/revestimentobeiral1.jpg"],
+            "tamanho": ["80 x 10"],
             "venda": "Unidade"
         },
         {
             "id": "P015",
             "nome": "Revestimento Ripado",
-            "imagem": "assets/img/produtos/revestimentoripado.jpg",
-            "tamanho": "80 x 42",
+            "codigo": 43,
+            "imagem": ["assets/img/produtos/revestimentoripado.jpg"],
+            "tamanho": ["80 x 42"],
             "venda": "Unidade"
         },
         {
             "id": "P016",
             "nome": "Separador de Jardim",
-            "imagem": "assets/img/produtos/separadordejardim.jpg",
-            "tamanho": "0,80 x 20",
+            "codigo": 49,
+            "imagem": ["assets/img/produtos/separadordejardim.jpg"],
+            "tamanho": ["0,80 x 20"],
             "venda": "Unidade"
         },
         {
             "id": "P017",
             "nome": "Tátil Alerta",
-            "imagem": "assets/img/produtos/tatilalerta.jpg",
-            "tamanho": "20 x 20",
+            "codigo": 13,
+            "imagem": ["assets/img/produtos/tatilalerta.jpg"],
+            "tamanho": ["20 x 20"],
             "venda": "Unidade"
         },
         {
             "id": "P018",
             "nome": "Tátil Direcional",
-            "imagem": "assets/img/produtos/tatildirecional.jpg",
-            "tamanho": "20 x 20",
+            "codigo": 13,
+            "imagem": ["assets/img/produtos/tatildirecional.jpg"],
+            "tamanho": ["20 x 20"],
             "venda": "Unidade"
         }
 ]
