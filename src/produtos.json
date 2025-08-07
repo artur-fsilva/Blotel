@@ -38,7 +38,8 @@
         {
             "id": "P006",
             "nome": "Ladrilho",
-            "imagem": "assets/img/produtos/ladrilho32x32.jpg",
+            "codigo": 15,
+            "imagem": ["assets/img/produtos/ladrilho32x32.jpg", "assets/img/produtos/Dormente.jpg", "assets/img/produtos/ladrilho32x32.jpg"],
             "tamanho": ["20 x 20 x 0,2" , "30 x 30 x 0,2" , "32 x 32 x 0,2"],
             "venda": "M²"
         },

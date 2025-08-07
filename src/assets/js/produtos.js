@@ -5,15 +5,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     card.innerHTML = ``
 
-    fetch('http://localhost:5500/src/produtos.json')
+    const endercoApi = "http://localhost:5500"
+
+    fetch(`${endercoApi}/src/produtos.json`)
     .then(res => res.json())
     .then(data => {
         const produtos = data;
         for (let i = 0; i < produtos.length; i++) {
             let produto = produtos[i];
+          
+            let primeiraImagem = Array.isArray(produto.imagem) ? produto.imagem[0] : produto.imagem;
             let strTexto = `
                 <a href="produto.html?id=${produto.id}" class="card">
-                <img class="card-img-top" src="../${produto.imagem}">
+                <img class="card-img-top" src="../${primeiraImagem}">
                 <div class="card-body">
                     <p class="card-text">${produto.nome}</p>
                 </div>

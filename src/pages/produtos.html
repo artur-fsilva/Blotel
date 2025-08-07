@@ -15,12 +15,19 @@
 
     <header>
         <img src="../assets/img/BlotelPNG.png" alt="">
-        <nav><ul id="navbar-ul">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="contatos.html">Contatos</a></li>
-            <li><a href="sobrenos.html">Sobre Nós</a></li>
-        </ul></nav>
+        <button id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navbar-ul">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav>
+            <ul id="navbar-ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!--Fim Header-->
@@ -89,5 +96,29 @@
 
 <!-- Fim do Footer-->
     <script src="../assets/js/produtos.js"></script>
+    <script>
+
+        const menuToggle = document.getElementById('menu-toggle');
+    const navbarUl = document.getElementById('navbar-ul');
+    if (menuToggle && navbarUl) {
+        menuToggle.addEventListener('click', function() {
+            navbarUl.classList.toggle('open');
+            const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', !expanded);
+        });
+    }
+    
+    if (navbarUl) {
+        navbarUl.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 600) {
+                    navbarUl.classList.remove('open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    }
+
+    </script>
 </body>
 </html>
