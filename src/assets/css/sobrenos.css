@@ -155,12 +155,13 @@ main h1 {
 }
 main > p {
   width: 100%;
-  color: #1c3d56;
+  color: #595959;
   font-size: 1.18rem;
   font-weight: 500;
   text-align: justify;
   margin-bottom: 18px;
   line-height: 1.7;
+  font-weight: 600;
 }
 
 article {
@@ -182,7 +183,7 @@ article div {
   width: 320px;
   min-height: 220px;
   padding: 24px 18px 18px 18px;
-  text-align: justify;
+  text-align: center;
   font-size: 1.08rem;
   border-radius: 18px;
   color: #1c3d56;
