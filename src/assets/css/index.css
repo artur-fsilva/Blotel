@@ -204,6 +204,7 @@ main button
     font-size: 1.35rem;
     color: #595959;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 #sobrenos-home iframe {
