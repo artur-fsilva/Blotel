@@ -3,143 +3,241 @@
             "id": "P001",
             "nome": "Chapéu de Muro Duas Abas",
             "codigo": 10,
-            "imagem": ["assets/img/produtos/chapeu2abas1.jpg"],
-            "tamanho": ["0,80 x 19" , "0,80 x 23"],
+            "imagem": ["assets/img/produtos/chapeu2abas1.jpg", "assets/img/produtos/chapeu2abas2.jpg"],
+            "tamanho": ["80 cm x 19 cm" , "80 cm x 23 cm"],
             "venda": "Unidade"
         },
         {
             "id": "P002",
             "nome": "Chapéu de Muro Reto",
             "codigo": 10,
-            "imagem": ["assets/img/produtos/chapeumuroreto1.jpg"],
-            "tamanho": ["0,80 x 19" , "0,80 x 23"],
+            "imagem": ["assets/img/produtos/chapeumuroreto1.jpg", "assets/img/produtos/chapeumuroreto2.jpg"],
+            "tamanho": ["80 cm x 19 cm" , "80 cm x 23 cm"],
             "venda": "Unidade"
         },
         {
             "id": "P003",
-            "nome": "Cobogo",
+            "nome": "Cobogó",
             "codigo": 44,
             "imagem": ["assets/img/produtos/cobogo.jpg"],
-            "tamanho": ["40 x 40"],
+            "tamanho": ["40 cm x 40 cm"],
             "venda": "Unidade"
-            
         },
         {
             "id": "P004",
-            "nome": "Concegrama",
-            "codigo": 43,
-            "imagem": ["assets/img/produtos/concegrama1.jpg"],
-            "tamanho": ["33 x 43"],
-            "venda": "M²"
+            "nome": "Cobogó",
+            "codigo": 44,
+            "imagem": ["assets/img/produtos/cobogo3.jpeg" , "assets/img/produtos/cobogo2.jpeg"],
+            "tamanho": ["40 cm x 40 cm"],
+            "venda": "Unidade"
         },
         {
             "id": "P005",
-            "nome": "Dormente",
-            "codigo": 45,
-            "imagem": ["assets/img/produtos/Dormente.jpg"],
-            "tamanho":["74 x 30"],
-            "venda": "Unidade"
-        },
-        {
-            "id": "P006",
-            "nome": "Ladrilho",
-            "codigo": 15,
-            "imagem": ["assets/img/produtos/ladrilho32x32.jpg", "assets/img/produtos/Dormente.jpg", "assets/img/produtos/ladrilho32x32.jpg"],
-            "tamanho": ["20 x 20 x 0,2" , "30 x 30 x 0,2" , "32 x 32 x 0,2"],
+            "nome": "Concegrama",
+            "codigo": 43,
+            "imagem": ["assets/img/produtos/concegrama1.jpg", "assets/img/produtos/concegrama2.jpg", "assets/img/produtos/concegrama3.jpg"],
+            "tamanho": ["33 cm x 43 cm"],
             "venda": "M²"
         },
         {
-            "id": "P007",
-            "nome": "Lajota",
-            "codigo" : 28,
-            "imagem": ["assets/img/produtos/lajota.jpg"],
-            "tamanho": ["45 x 45 x 5" , "45 x 50 x 5"],
+            "id": "P006",
+            "nome": "Dormente",
+            "codigo": 45,
+            "imagem": ["assets/img/produtos/Dormente.jpg" , "assets/img/produtos/Dormente2.jpg"],
+            "tamanho":["74 cm x 30 cm"],
             "venda": "Unidade"
         },
         {
+            "id": "P007",
+            "nome": "Ladrilho",
+            "codigo": 15,
+            "imagem": ["assets/img/produtos/ladrilho32x32.jpg", "assets/img/produtos/ladrilho32x32 3.jpg"],
+            "tamanho": ["32 cm x 32 cm x 0,2 cm"],
+            "venda": "M²"
+        },
+        {
+            "id": "P020",
+            "nome": "Ladrilho",
+            "codigo": 13,
+            "imagem": ["assets/img/produtos/ladrilho1.jpg", "assets/img/produtos/ladrilho2.jpg"],
+            "tamanho": ["20 cm x 20 cm x 0,2 cm"],
+            "venda": "M²"
+        },
+        {
+            "id": "P021",
+            "nome": "Ladrilho",
+            "codigo": 15,
+            "imagem": ["assets/img/produtos/ladrilho4.jpg", "assets/img/produtos/ladrilho3.jpg" , "assets/img/produtos/ladrilho5.jpg"],
+            "tamanho": ["40 cm x 40 cm x 0,5 cm"],
+            "venda": "M²"
+        },
+        {
+            "id": "P022",
+            "nome": "Ladrilho",
+            "codigo": 15,
+            "imagem": ["assets/img/produtos/ladrilho30x30.jpg", "assets/img/produtos/ladrilho30x30 2.jpg" , "assets/img/produtos/ladrilho30x30 3.jpg"],
+            "tamanho": ["30 cm x 30 cm x 0,2 cm"],
+            "venda": "M²"
+        },
+        {
             "id": "P008",
-            "nome": "Meio Fio",
-            "codigo": 19,
-            "imagem": ["assets/img/produtos/meiofioliso.jpg"],
-            "tamanho": ["0,80 x 30 x 12" , "0,80 x 25 x 12" , "0,80 x 30 x 12"],
+            "nome": "Lajota",
+            "codigo" : 28,
+            "imagem": ["assets/img/produtos/lajota.jpg"],
+            "tamanho": ["45 cm x 45 cm x 5 cm" , "45 cm x 50 cm x 5 cm"],
             "venda": "Unidade"
         },
         {
             "id": "P009",
-            "nome": "Piso Intertravado",
-            "imagem": ["assets/img/produtos/pisointertravado.png"],
-            "tamanho": [""],
-            "venda": ""
+            "nome": "Meio Fio Liso",
+            "codigo": 18,
+            "imagem": ["assets/img/produtos/meiofioliso.jpg"],
+            "tamanho": ["80 cm x 30 cm x 12 cm"],
+            "venda": "Unidade"
         },
         {
+            "id": "P024",
+            "nome": "Meio Fio Rústico",
+            "codigo": 19,
+            "imagem": ["assets/img/produtos/meiofiorustico1.jpeg" , "assets/img/produtos/meiofiorustico2.jpeg"],
+            "tamanho": ["80 cm x 30 cm x 12 cm" , "80 cm x 25 cm x 12 cm"],
+            "venda": "Unidade"
+        },
+        {
+            "id": "P0023",
+            "nome": "Pavigrama",
+            "codigo": 26,
+            "imagem": ["assets/img/produtos/pavigrama.jpeg"],
+            "tamanho": ["20 cm x 10 cm x 0,7 cm"],
+            "venda": "M²"
+        },
+        
+        {
             "id": "P010",
-            "nome": "Piso Liso",
-            "codigo": 15,
-            "imagem": ["assets/img/produtos/pisoliso6.jpg"],
-            "tamanho": ["6cm" , "8cm"],
+            "nome": "Piso Liso 16 Faces",
+            "codigo": 23,   
+            "imagem": ["assets/img/produtos/pisointertravado.png"],
+            "tamanho": ["6 cm" , "8 cm"],
             "venda": "M²"
         },
         {
             "id": "P011",
-            "nome": "Piso Rústico",
-            "imagem": ["assets/img/produtos/pisorustico1.jpg"],
-            "tamanho": [""],
-            "venda": ""
+            "nome": "Piso Liso Tijolinho",
+            "codigo": 15,
+            "imagem": ["assets/img/produtos/pisoliso6.jpg"],
+            "tamanho": ["6 cm" , "8 cm"],
+            "venda": "M²"
         },
         {
             "id": "P012",
-            "nome": "Piso Sextavado",
-            "codigo": 25,
-            "imagem": ["assets/img/produtos/pisosextavado.png"],
-            "tamanho": ["30 x 30 x 0,8"],
+            "nome": "Piso Rústico",
+            "codigo": 13,
+            "imagem": ["assets/img/produtos/pisorustico1.jpg" , "assets/img/produtos/pisorustico2.jpg"],
+            "tamanho": ["6cm" , "8 cm"],
             "venda": "M²"
         },
         {
             "id": "P013",
-            "nome": "Revestimento 3D",
-            "codigo": 46,
-            "imagem": ["assets/img/produtos/revestimento3d1.jpg"],
-            "tamanho": ["40 x 40 (Podendo variar conforme o modelo)"],
+            "nome": "Piso Sextavado",
+            "codigo": 25,
+            "imagem": ["assets/img/produtos/sextavado1.jpeg" , "assets/img/produtos/pisosextavado.png"],
+            "tamanho": ["30 cm x 30 cm x 8 cm"],
             "venda": "M²"
         },
         {
             "id": "P014",
-            "nome": "Revestimento de Beiral",
-            "codigo": 42,
-            "imagem": ["assets/img/produtos/revestimentobeiral1.jpg"],
-            "tamanho": ["80 x 10"],
+            "nome": "Piso Tátil Alerta",
+            "codigo": "13/15",
+            "imagem": ["assets/img/produtos/tatilalerta.jpg" , "assets/img/produtos/tatilalerta2.jpg"],
+            "tamanho": ["20 cm x 20 cm" , "32 cm x 32 cm"],
             "venda": "Unidade"
         },
         {
             "id": "P015",
-            "nome": "Revestimento Ripado",
-            "codigo": 43,
-            "imagem": ["assets/img/produtos/revestimentoripado.jpg"],
-            "tamanho": ["80 x 42"],
+            "nome": "Piso Tátil Direcional",
+            "codigo": 13,
+            "imagem": ["assets/img/produtos/tatildirecional.jpg"],
+            "tamanho": ["20 cm x 20 cm"],
             "venda": "Unidade"
         },
         {
             "id": "P016",
-            "nome": "Separador de Jardim",
-            "codigo": 49,
-            "imagem": ["assets/img/produtos/separadordejardim.jpg"],
-            "tamanho": ["0,80 x 20"],
-            "venda": "Unidade"
+            "nome": "Revestimento 3D Argo",
+            "codigo": 46,
+            "imagem": ["assets/img/produtos/revestimento3dargo1.jpg" , "assets/img/produtos/revestimento3dargo.jpg"],
+            "tamanho": ["40 cm x 40 cm (Podendo variar conforme o modelo)"],
+            "venda": "M²"
+        },
+        {
+            "id": "P025",
+            "nome": "Revestimento 3D Canjiquinha",
+            "codigo": 46,
+            "imagem": ["assets/img/produtos/revestimento3dcanjiquinha1.jpeg" , "assets/img/produtos/revestimento3dcanjiquinha.jpg"],
+            "tamanho": ["40 cm x 40 cm (Podendo variar conforme o modelo)"],
+            "venda": "M²"
+        },
+        {
+            "id": "P029",
+            "nome": "Revestimento 3D Capitone",
+            "codigo": 46,
+            "imagem": ["assets/img/produtos/revestimento3dcapitone.jpeg"],
+            "tamanho": ["40 cm x 40 cm (Podendo variar conforme o modelo)"],
+            "venda": "M²"
+        },
+        {
+            "id": "P026",
+            "nome": "Revestimento 3D Diamante",
+            "codigo": 46,
+            "imagem": ["assets/img/produtos/revestimento3ddiamante.jpg"],
+            "tamanho": ["40 cm x 40 cm (Podendo variar conforme o modelo)"],
+            "venda": "M²"
+        },
+        {
+            "id": "P027",
+            "nome": "Revestimento 3D Dunas",
+            "codigo": 46,
+            "imagem": ["assets/img/produtos/revestimento3ddunas.jpg"],
+            "tamanho": ["40 cm x 40 cm (Podendo variar conforme o modelo)"],
+            "venda": "M²"
+        },
+        {
+            "id": "P030",
+            "nome": "Revestimento 3D Pirâmide",
+            "codigo": 46,
+            "imagem": ["assets/img/produtos/revestimento3dpiramide.jpeg"],
+            "tamanho": ["50 cm x 50 cm"],
+            "venda": "M²"
+        },
+        {
+            "id": "P028",
+            "nome": "Revestimento 3D Tijolinho",
+            "codigo": 46,
+            "imagem": ["assets/img/produtos/revestimento3dtijolinho1.jpeg" , "assets/img/produtos/revestimento3dtijolinho.jpg" , "assets/img/produtos/revestimento3dtijolinho2.jpeg"],
+            "tamanho": ["40 cm x 40 cm (Podendo variar conforme o modelo)"],
+            "venda": "M²"
         },
         {
             "id": "P017",
-            "nome": "Tátil Alerta",
-            "codigo": 13,
-            "imagem": ["assets/img/produtos/tatilalerta.jpg"],
-            "tamanho": ["20 x 20"],
+            "nome": "Revestimento de Beiral",
+            "codigo": 42,
+            "imagem": ["assets/img/produtos/revestimentobeiral1.jpg" , "assets/img/produtos/revestimentobeiral2.jpg"],
+            "tamanho": ["80 cm x 10 cm"],
             "venda": "Unidade"
         },
         {
             "id": "P018",
-            "nome": "Tátil Direcional",
-            "codigo": 13,
-            "imagem": ["assets/img/produtos/tatildirecional.jpg"],
-            "tamanho": ["20 x 20"],
+            "nome": "Revestimento Ripado",
+            "codigo": 43,
+            "imagem": ["assets/img/produtos/revripado.jpg"],
+            "tamanho": ["80 cm x 42 cm"],
+            "venda": "Unidade"
+        },
+        {
+            "id": "P019",
+            "nome": "Separador de Jardim",
+            "codigo": 49,
+            "imagem": ["assets/img/produtos/separadodejardim.jpg" , "assets/img/produtos/sepdejardim.jpeg"],
+            "tamanho": ["80 cm x 20 cm"],
             "venda": "Unidade"
         }
 ]

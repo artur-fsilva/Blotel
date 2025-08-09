@@ -115,6 +115,7 @@ main {
 main h1{
     font-size: 2.5rem;
     padding: 10px 0px;
+    font-weight: 700;
 }
 
 main article {
@@ -162,6 +163,7 @@ main article {
 
 #descricao {
     display: flex;
+    font-weight: 800;
     align-items: flex-start;
     flex-direction: column;
     min-width: 220px;
@@ -191,7 +193,7 @@ main article {
     display: block;
     border-radius: 5px;
     cursor: pointer;
-    margin: 3px 6px 3px 0px;
+    margin: 3px 6px 3px 5px;
     padding: 4px 12px;
     background-color: #d3d3d3;
     box-sizing: border-box;
