@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     `Dimensão: ${dimensao}\n` +
                     `Venda: ${venda}`
                 );
-                const numero = '3198359590';
+                const numero = '31996105507';
                 const url = `https://wa.me/${numero}?text=${mensagem}`;
                 window.open(url, '_blank');
             });
